@@ -1,231 +1,297 @@
-* {
-    margin: 0;
-}
-
-.contenido-header,
-.paises {
-    display: flex;
-    justify-content: space-between;
-    background-color: #222222;
-    color: white;
-    font-size: 25px;
-}
-
-.paises li {
-    margin: 15px;
-}
-
-.contenido-header p {
-    margin-left: 20px;
-}
-
-.contenedor2 {
-    background-color: #F0A83E;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    font-size: 1.3rem;
-}
-
-.navegacion-categorias {
-    display: flex;
-    justify-content: space-between;
-}
-
-li {
-    margin: 1rem;
-}
-
-.banner {
-    background-image: url(../img/Banner.png);
-    background-repeat: no-repeat;
-    height: 50rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-.banner-contenido {
-    margin-right: 5rem;
-}
-
-.titulo1 {
-    font-size: 3rem;
-    background-color: white;
-    color: #3C2313;
-    padding: 1rem;
-    border-radius: 0.5rem;
-}
-
-.titulo2 {
-    font-size: 1.5rem;
-    margin-top: 1.5rem;
-}
-
-.titulo3 {
-    background-color: #F0A83E;
-    color: white;
-    padding: 2rem;
-    font-size: 2rem;
-    margin-top: 2rem;
-    border-radius: 0.5rem;
-}
-
-.Contenedor-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 2rem;
-    font-family: 'Roboto', sans-serif;
-}
-
-.texto-main {
-    font-weight: 700;
-    font-size: 3rem;
-    color: #3C2313;
-}
-
-.opciones-main {
-    color: #666666;
-    margin-top: 2rem;
-}
-
-.destacado {
-    display: flex;
-    justify-content: space-around;
-}
-
-.contenido-destacado {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 3rem;
-    color: #3C2313;
-    font-size: 1.4rem;
-}
-
-.precio {
-    color: #F0A83E;
-}
-
-.contcto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.btn {
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-    border-radius: 25px;
-    font-size: 6rem;
-}
-
-.contenido-contacto {
-    color: #3C2313;
-    font-family: 'Roboto', sans-serif;
-    font-size: 2rem;
-    margin-top: 2rem;
-}
-
-.contcto input {
-    background-color: #3C2313;
-    color: white;
-    padding: 1rem;
-    margin-top: 1rem;
-    border-radius: 20px;
-}
-
-.Resetear {
-    background-color: #8A8787;
-    color: white;
-    border-radius: 20px;
-    padding: 1rem;
-}
-
-.enviar {
-    background-color: #F0A83E;
-    color: white;
-    padding: 1rem;
-    border-radius: 20px;
-}
-
-.suscripcion {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 2rem;
-    background-color: #F0A83E;
-    height: 5rem;
-}
-
-.correo {
-    display: flex;
-    align-items: flex-end;
-}
-
-.contenido-footer {
-    font-family: 'Roboto', sans-serif;
-    font-size: 2rem;
-    color: white;
-    margin-left: 2rem;
-}
-
-.suscripcion input {
-    border-radius: 20px;
-    padding: 1rem;
-    margin: 1rem;
-}
-
-.btn-suscripcion {
-    background-color: #3C2313;
-    color: white;
-    border-radius: 20px;
-    font-size: 1.5rem;
-    padding: 1rem;
-    margin: 1rem;
-}
-
-.footer {
-    background-color: #3C2313;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-}
-
-.texto-footer {
-    padding: 1rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.texto-footer h3 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 2.3rem;
-}
-
-.lugar {
-    color: #8A8787;
-    padding: 0rem 5rem 1rem;
-}
-
-.iconos {
-    margin: 0.5rem;
-    background-color: #8A8787;
-    padding: 1rem;
-    border-radius: 50px;
-}
-
-.ult-barra {
-    background-color: #222222;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-}
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .contenido-header,
+    .paises {
+        display: flex;
+        justify-content: space-between;
+        background-color: #222222;
+        color: white;
+        font-size: 25px;
+    }
+    
+    .paises li {
+        margin: 15px;
+    }
+    
+    .contenido-header p {
+        margin-left: 20px;
+    }
+    
+    .contenedor2 {
+        background-color: #F0A83E;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
+    
+    .navegacion-categorias {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .lista {
+        margin: 1rem;
+        list-style: none;
+    }
+    
+    .lista::before {
+        content: url(/img/Pasted\ Graphic.png);
+    }
+    
+    .banner {
+        background-image: url(../img/Banner.png);
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 50rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    
+    .banner-contenido {
+        margin-right: 5rem;
+    }
+    
+    .titulo1 {
+        font-size: 3rem;
+        background-color: white;
+        color: #3C2313;
+        padding: 1rem;
+        border-radius: 0.5rem;
+    }
+    
+    .titulo2 {
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    
+    .titulo3 {
+        background-color: #F0A83E;
+        color: white;
+        padding: 2rem;
+        font-size: 2rem;
+        margin-top: 2rem;
+        border-radius: 0.5rem;
+    }
+    
+    .Contenedor-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .texto-main {
+        font-weight: 700;
+        font-size: 3rem;
+        color: #3C2313;
+    }
+    
+    .opciones-main {
+        color: #666666;
+        margin-top: 2rem;
+    }
+    
+    .destacado {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .contenido-destacado {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 3rem;
+        color: #3C2313;
+        font-size: 1.4rem;
+    }
+    
+    .precio {
+        color: #F0A83E;
+    }
+    
+    .contcto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        border-radius: 25px;
+        font-size: 6rem;
+    }
+    
+    .contenido-contacto {
+        color: #3C2313;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+    
+    .contcto input {
+        background-color: #3C2313;
+        color: white;
+        padding: 1rem;
+        margin-top: 1rem;
+        border-radius: 20px;
+    }
+    
+    .Resetear {
+        background-color: #8A8787;
+        color: white;
+        border-radius: 20px;
+        padding: 1rem;
+    }
+    
+    .enviar {
+        background-color: #F0A83E;
+        color: white;
+        padding: 1rem;
+        border-radius: 20px;
+    }
+    
+    .suscripcion {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 2rem;
+        background-color: #F0A83E;
+        height: 5rem;
+    }
+    
+    .correo {
+        display: flex;
+        align-items: flex-end;
+    }
+    
+    .contenido-footer {
+        font-family: 'Roboto', sans-serif;
+        font-size: 2rem;
+        color: white;
+        margin-left: 2rem;
+    }
+    
+    .suscripcion input {
+        border-radius: 20px;
+        padding: 1rem;
+        margin: 1rem;
+    }
+    
+    .btn-suscripcion {
+        background-color: #3C2313;
+        color: white;
+        border-radius: 20px;
+        font-size: 1.5rem;
+        padding: 1rem;
+        margin: 1rem;
+    }
+    
+    .footer {
+        background-color: #3C2313;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .texto-footer {
+        padding: 1rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .texto-footer h3 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.3rem;
+    }
+    
+    .lugar {
+        color: #8A8787;
+        padding: 0rem 5rem 1rem;
+    }
+    
+    .iconos {
+        margin: 0.5rem;
+        background-color: #8A8787;
+        padding: 1rem;
+        border-radius: 50px;
+    }
+    
+    .ult-barra {
+        background-color: #222222;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+    }
+    /* Media Queries */
+    
+    @media (max-width: 480px) {
+        .contenido-header {
+            display: none;
+        }
+        .navegacion {
+            display: none;
+        }
+        .contenedor2 img {
+            width: 40%;
+            padding: 1rem;
+        }
+        .banner {
+            height: 35rem;
+        }
+        .titulo1 {
+            font-size: 1.5rem;
+        }
+        .titulo2 {
+            font-size: 1rem;
+        }
+        .titulo3 {
+            font-size: 1rem;
+        }
+        .texto-main {
+            text-align: center;
+        }
+        .destacado {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .suscripcion {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 6rem
+        }
+        .suscripcion p {
+            font-size: 1.5rem;
+        }
+        .correo input {
+            width: 12rem;
+            height: 3rem;
+            font-size: 0.7rem;
+        }
+        .btn-suscripcion {
+            width: 9rem;
+            height: 3rem;
+            font-size: 1rem;
+        }
+        .texto-footer {
+            text-align: center;
+            font-size: 1rem;
+        }
+    }
